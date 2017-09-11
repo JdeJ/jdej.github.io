@@ -1,5 +1,5 @@
 # blog.github.io
-### Como aprender JavaScript y no morir en el intento.
+### Como aprender JavaScript y no morir en el intento.  
 
 
 En este pequeño blog contaré mi proceso de aprendizaje sobre la programación de **JavaScript**.
