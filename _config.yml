@@ -1,15 +1,43 @@
 # Site settings
 title: JdeJ
-email: me@montalvomiguelo.com
-description: Programador en pañales
-keywords: web developer, programming, java, javascript, css, html5
-author: JdeJ
-baseurl: ""
-url: "http://jdej.github.io"
-twitter_username: JorgedeJuana
-github_username:  JdeJ
-mail: jorgedjuana@gmail.com
-permalink: pretty
+description: 'Developer under construction'
+url: 'http://jdej.github.io'
+baseurl: '/jekyll-uno'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Jorge de Juana'
+  email: jorgedjuana@gmail.com
+  twitter_username: JorgedeJuana
+  # facebook_username: joshgerdes
+  github_username:  JdeJ
+  linkedin_username:  JorgedeJuana
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
