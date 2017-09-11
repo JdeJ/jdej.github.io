@@ -1,0 +1,7 @@
+# Site settings
+title: Jorge de Juana
+description: Programador en pañales
+keywords: web developer, programming, java, javascript, css, html5
+author: JdeJ
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
