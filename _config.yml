@@ -1,10 +1,15 @@
 # Site settings
-title: Jorge de Juana
+title: JdeJ
+email: me@montalvomiguelo.com
 description: Programador en pañales
 keywords: web developer, programming, java, javascript, css, html5
 author: JdeJ
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-markdown: kramdown
+baseurl: ""
+url: "http://jdej.github.io"
+twitter_username: JorgedeJuana
+github_username:  JdeJ
 mail: jorgedjuana@gmail.com
 permalink: /blog/:year/:month/:day/:title
+
+# Build settings
+markdown: kramdown
