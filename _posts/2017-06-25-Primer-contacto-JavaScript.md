@@ -1,18 +1,23 @@
-# Primer Contacto con JavaScript
-#### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
+---
+layout: post
+title: Primer Contacto con JavaScript
+date: 2017-06-25
+---
+
+### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
 
 En este, mi primer, artículo voy a hacer una lista de las que, a priori, son para mi las cosas que más me han llamado la atención de mi primer contacto con **JavaScript**.
 
 ***
 
-### Un poco de Historia
+## Un poco de Historia
 Fue creado por [Brendan Eich]( https://es.wikipedia.org/wiki/Brendan_Eich "Brendan Eich") mientras trabajaba para **Netscape Communications Corporation**, originalmente se llamaba **Mocha**, luego cambió de nombre a **LiveScript** y finalmente se quedó con el nombre de **JavaScript** cuando el navegador **Netscape** añadió la compatibilidad con al tecnología **Java**, aunque ambos lenguajes tienen pocas cosas en común.
 
 Para su desarrollo tomó funcionalidades de Java, Scheme, Self, Perl y Python, creando una mezcla de programación funcional y orientada a objetos.
 
 ***
 
-### Sintaxis y peculiaridades
+## Sintaxis y peculiaridades
 La sintaxis es la común a casi todos los lenguajes:
 
 Código | Resultado
@@ -31,7 +36,7 @@ De todo esto las dos cosas que más me han llamado la atención son:
 
 ***
 
-### Valores
+## Valores
 
 En JS, las variables tienen que nombrarse siguiendo ésta nomenclatura: empezando por **[A-Z, a-z, $, _]** seguido de **[A-Z, a-z, $, _, 0-9]** . En ningún caso puede empezar por un número ni pertenecer a la lista de [palabras reservadas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Palabras_Reservadas "Palabras Reservadas").
 
@@ -45,7 +50,7 @@ Para poder saber de que tipo es la variable que estamos tratando en cada momento
 
 ***
 
-### Funciones
+## Funciones
 
 El tema de las funciones es un poco peculiar, por una parte al definir una función que va a recibir **X** parámetros, no necesitamos decir que tipo de dato es cada parámetro, sólo debemos poner el nombre de los parámetros. Y tampoco debemos hacer nada especial si la función va a devolver algo:
 
@@ -112,7 +117,7 @@ En el caso de ***arguments*** se comportará de la siguiente manera, definiendo 
 
 ***
 
-### Ámbito de las variables
+## Ámbito de las variables
 
 Otra cosa que me llama la atención de JS es referente a la vida de las variables, las variables en JS tienen vida a lo largo de la función en la que se encuentren, no del bloque en el que estén definidas.
 
@@ -152,7 +157,7 @@ Para poder limitar el ámbito de una variable a una función, hay que usar lo qu
 
 ***
 
-### Objects and Constructors
+## Objects and Constructors
 
 En lo referente a objetos, JS distingue 2 modos de operar:
 
