@@ -9,7 +9,7 @@ url: "http://jdej.github.io"
 twitter_username: JorgedeJuana
 github_username:  JdeJ
 mail: jorgedjuana@gmail.com
-permalink: /blog/:year/:month/:day/:title
+permalink: pretty
 
 # Build settings
 markdown: kramdown
