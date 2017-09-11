@@ -26,7 +26,7 @@ Si pensamos a gran escala, las ciudades están comunicadas entre sí también a 
 
 ***
 
-### ¿Por qué funciona?
+## ¿Por qué funciona?
 En éste punto voy a aprovechar el símil de la línea telefónica, cuando nosotros descolgamos el teléfono estamos abriendo una línea de comunicación con el mundo, nuestro siguiente paso es decidir con quién queremos hablar, ésto lo hacemos marcando su número de teléfono y acto seguido oímos los famosos tonos de llamada y si hay alguien al otro lado del teléfono que nos conteste al levantar el aurícular aceptará nuestra llamada y comenzará la conversación.
 Pues bien, en Internet es practicamente lo mismo, cuando abrimos nuestro explorador preferido (Chrome, IE, Firefox, Safari) estamos "descolgando" nuestro teléfono, el siguiente paso es "marcar el número de teléfono" y lo haremos escribiendo la dirección de la página web para poder visitarla, nuestro ordenador/router/servidor de internet hace su "magia" para que nuestra petición llegue donde debe. Llegó el momento de la última y más interesante parte de éste artículo...
 
