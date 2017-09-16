@@ -1,6 +1,4 @@
-# Como aprender JavaScript y no morir en el intento
-
-En este pequeño blog contaré mi proceso de aprendizaje sobre la programación de **JavaScript**.
+# Cómo aprender JavaScript y no morir en el intento
 
 A través de éstos breves artículos intentaré relatar mi experiencia aprendiendo **JavaScript**, y lograr mi objetivo de trabajar como Frontend Developer.
 
