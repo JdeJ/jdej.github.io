@@ -2,6 +2,7 @@
 layout: post
 title: Cómo funciona Internet
 date: 2017-08-09
+categories: JavaScript
 ---
 
 ### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
