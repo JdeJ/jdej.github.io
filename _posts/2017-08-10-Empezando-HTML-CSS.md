@@ -2,6 +2,7 @@
 layout: post
 title: Empezando HTML & CSS
 date: 2017-08-10
+categories: JavaScript
 ---
 
 ### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
