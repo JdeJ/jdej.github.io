@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Resumiendo Git
+author: "JdeJ"
+avatar: "images/profile.jpg"
 date: 2017-07-02
 categories: JavaScript
 ---
@@ -66,7 +68,7 @@ Resumiendo, nuestro método de trabajo será el siguiente:
 Una vez instalado en nuestro ordenador, las operaciones con *Git* las realizaremos a través de unos comandos en la consola del sistema. Aunque existen muchos, debemos conocer al menos los siguientes:
 
 Comando | Resultado
--- | --
+--- | ---
 git help <comando> | Obtenemos la ayuda acerca del comando.
 git init | Indicamos a *git* que comienze el seguimiento del directorio actual
 git add <archivo> | Informamos a *git* de que debe seguir dicho archivo

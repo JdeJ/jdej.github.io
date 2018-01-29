@@ -1,4 +1,4 @@
-# Cómo me convertí en programador y no morí en el intento
+## Cómo me convertí en programador y no morí en el intento
 
 A través de éstos breves artículos intentaré relatar mi experiencia aprendiendo tanto **Java** como  **JavaScript**, y lograr mi objetivo de trabajar como Frontend Developer.
 

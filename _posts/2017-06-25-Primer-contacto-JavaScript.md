@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Primer Contacto con JavaScript
+author: "JdeJ"
+avatar: "images/profile.jpg"
 date: 2017-06-25
 categories: JavaScript
 ---

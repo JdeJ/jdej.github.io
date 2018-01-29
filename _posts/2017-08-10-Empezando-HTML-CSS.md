@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Empezando HTML & CSS
+author: "JdeJ"
+avatar: "images/profile.jpg"
 date: 2017-08-10
 categories: JavaScript
 ---

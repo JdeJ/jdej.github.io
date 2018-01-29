@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Cómo funciona Internet
+author: "JdeJ"
+avatar: "images/profile.jpg"
 date: 2017-08-09
 categories: JavaScript
 ---

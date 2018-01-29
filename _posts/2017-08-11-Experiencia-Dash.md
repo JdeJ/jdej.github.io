@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Mi experiencia con Dash
+author: "JdeJ"
+avatar: "images/profile.jpg"
 date: 2017-08-11
 categories: JavaScript
 ---
