@@ -2,6 +2,7 @@
 layout: post
 title: Primer Contacto con JavaScript
 date: 2017-06-25
+categories: JavaScript
 ---
 
 ### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
