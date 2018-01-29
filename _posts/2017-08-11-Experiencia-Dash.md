@@ -2,6 +2,7 @@
 layout: post
 title: Mi experiencia con Dash
 date: 2017-08-11
+categories: JavaScript
 ---
 
 ### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
