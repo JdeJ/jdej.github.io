@@ -2,6 +2,7 @@
 layout: post
 title: Resumiendo Git
 date: 2017-07-02
+categories: JavaScript
 ---
 
 ### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
