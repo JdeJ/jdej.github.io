@@ -7,7 +7,7 @@ date: 2017-08-09
 categories: JavaScript
 ---
 
-### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
+### [Aprende Javascript con MentoringJS - Pretraining Step 3](http://mentoringjs.com "MentoringJS")
 
 Con éste artículo no pretendo sentar cátedra ni mucho menos, solo espero que le pueda servir a alguien para hacerse una idea del funcionamiento de Internet. Voy a hacerlo a través de cuatro preguntas: ¿Qué es?¿Cómo funciona?¿Por qué funciona?¿Qué demonios significa DNS?
 

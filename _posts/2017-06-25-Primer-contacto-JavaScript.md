@@ -7,7 +7,7 @@ date: 2017-06-25
 categories: JavaScript
 ---
 
-### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
+### [Aprende Javascript con MentoringJS - Pretraining Step 1](http://mentoringjs.com "MentoringJS")
 
 En este, mi primer, artículo voy a hacer una lista de las que, a priori, son para mi las cosas que más me han llamado la atención de mi primer contacto con **JavaScript**.
 

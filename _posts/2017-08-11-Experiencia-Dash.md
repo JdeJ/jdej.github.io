@@ -7,7 +7,7 @@ date: 2017-08-11
 categories: JavaScript
 ---
 
-### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
+### [Aprende Javascript con MentoringJS - Pretraining Step 3](http://mentoringjs.com "MentoringJS")
 
 Después de hacer el tutorial de HTML & CSS de Codecademy, en ésta ocasión he realizado los 3 primeros proyectos que ofrece la 
 plataforma Dash para aprender HTML y Javascript.

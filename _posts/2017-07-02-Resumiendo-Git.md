@@ -7,7 +7,7 @@ date: 2017-07-02
 categories: JavaScript
 ---
 
-### [Aprende javascript con MentoringJS](http://mentoringjs.com "MentoringJS")
+### [Aprende Javascript con MentoringJS - Pretraining Step 2](http://mentoringjs.com "MentoringJS")
 
 En éste breve artículo intentaré explicar qué es la tecnología *Git* y como utilizarla para ayudarnos con nuestros proyectos.
 
