@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Empezando HTML & CSS
+title: JavaScript Debbuging
 author: "JdeJ"
 avatar: "images/profile.jpg"
-date: 2017-08-10
+date: 2018-06-24
 categories: JavaScript
 ---
 
-### [Aprende Javascript con MentoringJS - Pretraining Step 3](http://mentoringjs.com "MentoringJS")
+### [Aprende Javascript con MentoringJS - Pretraining Step 5](http://mentoringjs.com "MentoringJS")
 
-En mi camino para aprender Javascript necesitaba sentar unas bases sobre HML y CSS. Después de hacer el curso "HTML y CSS" de Codecademy, ésto es lo que he sacado en claro.
+Después de una parada obligada, retomo mi objetivo de aprender JavaScript con MentoringJS, en éste artículo intentaré explicar lo que he aprendido en éste step.
 
 ***
 
