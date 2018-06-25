@@ -9,12 +9,12 @@ categories: JavaScript
 
 ### [Aprende Javascript con MentoringJS - Pretraining Step 5](http://mentoringjs.com "MentoringJS")
 
-Después de una parada obligada, retomo mi objetivo de aprender JavaScript con MentoringJS, en éste artículo intentaré explicar lo que he aprendido en éste step.
+Después de una parada obligada, retomo mi objetivo de aprender JavaScript con MentoringJS, en este artículo intentaré explicar lo que he aprendido durante el Step 5.
 
 ***
 
 ## Debugging o Depuración
-Independientemente del lenguaje de programación que estemos utilizando, hay un concepto que termina aflorando después de los primeros pasos: *Debugging*.
+Independientemente del lenguaje de programación que estemos utilizando, hay un concepto que termina aflorando después de los primeros pasos: **Debugging**.
 
 El *Debugging* o *Depuración* es el proceso por el que se eliminan problemas en nuestro código, e incluso se mejora su rendimiento. Como curiosidad, el término *Debugging* se dice que viene de la palabra *bug*, en inglés *bicho* y se remonta al inicio de la computación dónde la mayoría de los problemas en los sistemas eran físicos por culpa de insectos (polillas...) que se colaban en los circuitos atraidos por las luces y el calor, y estropeaban la electrónica.
 
