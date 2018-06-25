@@ -9,7 +9,7 @@ categories: JavaScript
 
 ### [Aprende Javascript con MentoringJS - Pretraining Step 5](http://mentoringjs.com "MentoringJS")
 
-Después de una parada obligada, retomo mi objetivo de aprender JavaScript con MentoringJS, en éste artículo intentaré explicar lo que he aprendido en éste step.
+Después de una parada obligada, retomo mi objetivo de aprender JavaScript con MentoringJS, en este artículo intentaré explicar lo que he aprendido durante el Step 5.
 
 ***
 
