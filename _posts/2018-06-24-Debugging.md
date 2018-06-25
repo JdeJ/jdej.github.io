@@ -25,7 +25,7 @@ En este artículo explicaré las herramientas con las que contamos para depurar 
 ***
 
 ## Alert
-Iré explicando las Herramientas con las que contamos desde la más básica a la más compleja. Empezamos por **Alert**, ésta función nos permite lanzar un mensaje al usuario que detiene la ejecución del código hasta que se presione el botón **OK**, una vez presionado el programa sigue su curso. Su sintaxis es ésta:
+Iré explicando las Herramientas con las que contamos desde la más básica a la más compleja. Empezamos por **Alert**, ésta función nos permite lanzar un mensaje al usuario que detiene la ejecución del código hasta que se presione el botón *OK*, una vez presionado el programa sigue su curso. Su sintaxis es ésta:
 
     alert("Texto que queremos mostrar.");
 
@@ -45,6 +45,37 @@ Aunque en un principio ésta herramienta pueda parecernos inútil, es de gran ut
 ***
 
 ## Developer Tools
+Para los que estamos acostumbrados a programar usando un **IDE** (*Integrated Development Environment*) como Netbeans, Eclipse... se nos hace muy cuesta arriba programar con un editor de texto (Notepad, Atom, Sublime...) ya que echamos en falta todas las ayudas y los autocompletados que nos brindan. Aunque tanto *Atom* como *Sublime* ofrecen pluggins que nos ayudan muchísimo, no terminamos de encontrar la misma comodida y fluidez que ofrecen los **IDE**.
+
+En nuestro caso utilizaremos el propio navegador web para poder controlar la ejecución de nuestro código y nos ofrece unas herramientas de desarrollo que no tienen nada que envidiar a los *Netbeans* o *Eclipse*.
+
+El navegador más usado actualmente es **Google Chrome** aunque todos los navegadores modernos ofrecen las mismas herramientas en mayor o menor grado. Por lo que las opciones que explique son válidas para todos.
+
+Para poder acceder a las **Dev Tools** de **Chrome** podemos hacerlo de tres maneras:
+
+1 Pulsando: 
+    - En Windows: ctrl + shift + i
+    - En Mac OSX: cmd + opt + i
+2 Dentro de la página web que queremos inspeccionar:
+    - botón derecho -> Inspeccionar
+3 A través del menú de Chrome:
+    - Más Herramientas/Herramientas para desarrolladores
+
+Una vez activadas el navegador nos divide la pantalla, por una lado nos muestra la web de manera reducida y por otro todas las herramientas en forma de pestañas, destacan éstas:
+
++ Elements: Desde esta pestaña podemos ir viendo a través del código donde se sitúan los elementos dentro de la propia web.
++ Console: Para nosotros la más importante. Nos ofrece una línea de comandos para poder controlar nuestro código, sacar mensajes, depurar...
++ Sources: Aquí tenemos un pequeño explorador de archivos que nos permite navegar por el sistema de carpetas que configuran la web, también podemos abrir los archivos ya sean css, js...
++ Network: Si la web consume recursos web, desde aquí podemos inspeccionar estas conexiones y comprobar si todo va bien.
+
+***
+
+## Consola
+Practicamente todos los programadores están familiarizados con la **Terminal**, para ejecutar su código, depurarlo... Ésto es precisamente lo que nos permite la **Consola**.
+
+- **Errors**
+- **Errors**
+- **Errors** 
 
 
 
