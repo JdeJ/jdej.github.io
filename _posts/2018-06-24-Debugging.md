@@ -99,13 +99,42 @@ También podemos utilizar esta consola para ejecutar código directamente como p
     
     //Incluso podemos ejecutar un bloque de código
     var miArray = [1, 2, 3];
-    for (var i = 0; i < arr.length; i++) {
+    for (var i = 0; i < miArray.length; i++) {
       miArray[i] \*= 2;
     }
     miArray;
     (3) [2, 4, 6] //escribirá ésto en pantalla
 
-- **Errors** 
+Pero la *línea de comandos* no se queda ahí, desde la guía de referencia de la [API de la línea de comandos](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3), nos explican la potencia de ésta y que opciones nos da. Como ejemplo tenemos los siguientes comandos:
+
+    $_ //Muestra el valor de la última sentencia ejecutada
+    $_.length //ejecuta la función length sobre el valor de la última sentencia ejecutada(si puede)
+    $(selector) //devuelve el elemento del DOM seleccionado
+    $(selector).css('propiedad', 'valor'); //accede al css y lo modifica
+    $$(selector) //devuelve un array con todos los elementos del DOM seleccionados
+    clear() //limpia la consola
+    copy(object) //copia en el portapapeles la representacion en String de un objeto
+    debug(funcion) //cuando se ejecuta la funcion se activa el depurador en la pestaña *Sources*
+
+- **Console.log** 
+
+Al igual que ***Alert*** lo podemos usar para lanzar mensajes, en éste caso en la consola. Pero con dos grandes diferencias:
+
+1 No detiene la ejecución del programa. Cuando el proceso de ejecución llega al punto del *log* lo muestra en pantalla y sigue con la siguiente instrucción.
+
+    console.log("Estamos dentro de la función miFuncion().");
+    console.log("El valor de la variable es: "+ vble);
+
+2 Podemos imprimir en la consola más elementos que no sean únicamente Strings:
+
+    console.log($('p')); //accedemos a elementos del DOM
+    console.log(obj); //imprimimos una representación en String del objeto obj
+
+- **Debugger** 
+
+- **Librerías y Minified Code** 
+
+
 
 
 
