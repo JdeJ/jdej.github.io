@@ -13,56 +13,59 @@ Después de una parada obligada, retomo mi objetivo de aprender JavaScript con M
 
 ***
 
-## HTML
-Las siglas *HTML* significan HiperText Marked Language, es un lenguaje de programación que usamos para diseñar páginas web. El código llega a nuestro ordenador y el navegador que estemos usando se encarga de ejecutarlo.
+## Debugging o Depuración
+Independientemente del lenguaje de programación que estemos utilizando, hay un concepto que termina aflorando después de los primeros pasos: *Debugging*.
 
-Toda página web tiene una estructura fija:
+El *Debugging* o *Depuración* es el proceso por el que se eliminan problemas en nuestro código, e incluso se mejora su rendimiento. Como curiosidad, el término *Debugging* se dice que viene de la palabra *bug*, en inglés *bicho* y se remonta al inicio de la computación dónde la mayoría de los problemas en los sistemas eran físicos por culpa de insectos (polillas...) que se colaban en los circuitos atraidos por las luces y el calor, y estropeaban la electrónica.
 
-    <DOCTYPE! html>
-    <html>
-      <head>
-        <title>Título de la página web</title>
-      </head>
-      <body>
-        <p>Contenido que aparecerá en el navegador</p>
-      </body>
-    </html>
+La *Depuración* es un proceso minucioso y lento que pone a prueba al programador y que puede ser la inclusión de líneas de código que ralentizan o detienen el curso natural del programa para detectar al paso por esa instrucción el valor de ciertas variables o incluso si realmente se está pasando por esa parte del código. En la mayoría de los casos se cuenta con un sistema depurador (*debugger*) y en entornos de desarrollo más serios se utilizan las *pruebas unitarias* que son automatizaciones de detección de errores especializadas en partes de nuestro código que lo testean al límite en busca de problemas.
 
-Después de ver el esquema anterior nos damos cuenta de 2 cosas:
-
-1 La importancia de la *indentación* en nuestro código, es algo que aparece en la segunda o tercera página de los libros de programación de cualquier lenguaje y deberíamos tenerle el mismo respeto que a las técnicas o patrones de programación.
-
-2 Por otro lado vemos lo más importante en HTML y CSS, las *etiquetas*. Cada elemento que forme parte de nuestra web va encerrado en etiquetas que identifican que tipo de elemento tiene que crear/representar.
-
-Éstas *etiquetas* van desde las que se usan para "dibujar" la distribución de nuestra página: \<div> o \<table>, hasta las del contenido propiamente dicho: \<p>, \<h1>, \<img> Respecto a las etiquetas debemos imaginarnoslas como pequeñas cajas, cada etiqueta ocupa su propio espacio y podemos configurarlo a nuestro antojo para que ocupen más o menos (a través de los bordes interiores y exteriores), se posicionen delante o detrás de otros elementos y ocupen un determinado espacio en nuestra página respecto al tamaño de la ventana que la contiene.
-
-Por úlitmo, otra cosa que podemos hacer con las etiquetas de nuestra página es personalizándolas a través de parámetros propios de cada una de ellas, por ejemplo podemos asignarle a un párrafo el tipo de fuente, tamaño, color...
+En este artículo explicaré las herramientas con las que contamos para depurar nuestro código en *JavaScript* a través de nuestro navegador.
 
 ***
 
-## CSS
-La otra mitad de éste miniresumen se refiere a *CSS* (Cascading Stylesheets). Si en el punto anterior deciamos que usábamos el lenguaje HTML para definir la estructura y el contenido de nuestra web, a través de las CSS podemos darle el estilo que nosotros queremos.
+## Alert
+Iré explicando las Herramientas con las que contamos desde la más básica a la más compleja. Empezamos por *Alert*, ésta función nos permite lanzar un mensaje al usuario que detiene la ejecución del código hasta que se presione el botón *OK*, una vez presionado el programa sigue su curso. Su sintaxis es ésta:
 
-Las etiquetas HTML nos permiten a través de parámetros personalizar nuestros elementos, pero se hace muy pesado tener que personalizar cada elemento que añadamos. Para facilitar la labor de personalización surgen las CSS, con ellas podemos definir de una manera única todos los elementos de un tipo que estén presentes en nuestra web. Para entenderlo un poco mejor dejo éste ejemplo:
+    alert("Texto que queremos mostrar.");
 
-    <!-- HTML -->
-    <p style="color: white; font-family: helvetica; font-size: 22px;">Éste es nuestro párrafo original en código HTML</p>
+Podemos usarlo para mostrar mensajes o valores de variables:
 
-    <!-- Personalizando con CSS -->
-    <!-- CSS -->
-    p {
-      color: white;
-      font-family: helvetica;
-      font-size: 22px;
-    }
-    <!-- HTML -->
-    <p>Éste es nuestro párrafo con CSS</p>
+    alert("Estamos dentro de la función miFuncion().");
+    alert("El valor de la variable es: "+ vble);
 
-En el primer ejemplo vemos como definiriamos el color, el tipo y el tamaño de fuente del texto contenido en nuestro párrafo. Funciona bien pero si hacemos ésto con el clásico HTML estamos obligados a definir los parámetros en cada párrafo de la web.
+Pero *Alert* tiene una limitación muy importante: sólo puede lanzar *Strings* por pantalla
 
-En el segundo ejemplo vemos que el código HTML se simplifica (recordad que sólo usamos HTML para definir el esqueleto de la web), y las líneas contenidas entre p{} son las que definen las propiedades del texto contenido en todos los párrafos de la web. Con ésto nos ahorramos tener que escribir el color, tamaño y tipo de letra que el navegador debe mostrar para cada párrafo.
+    var obj={name: 'Jorge', age: 36}; //creo un objeto
+    alert(obj); //imprimo por pantala mi objeto
+    [object Object] //ésto se imprime en el Alert
 
-Pero, ¿y si necesitamos tener varios tipos de párrafos?, como podéis imaginaros no somos los primeros que pensamos en ello, todos los elementos que usamos en nuestra web tienen 2 parámetros muy importantes:
+Aunque en un principio ésta herramienta pueda parecernos inútil, es de gran utilidad para lanzar un mensaje básico y detener la ejecución del código de una manera sencilla.
+
+***
+
+## Developer Tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1 *class*: Éste parámetro lo usamos para especificar propiedades extra para ciertos elementos. Siguiendo nuestro ejemplo, podemos definir el color, la fuente y el tamaño de todos los párrafos, y ademas que los que sean de la clase cursiva (\<p class="cursiva">) tengan el texto en cursiva:
 
