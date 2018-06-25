@@ -54,12 +54,18 @@ El navegador más usado actualmente es **Google Chrome** aunque todos los navega
 Para poder acceder a las **Dev Tools** de **Chrome** podemos hacerlo de tres maneras:
 
 1 Pulsando: 
-    - En Windows: ctrl + shift + i
-    - En Mac OSX: cmd + opt + i
+
+  - En Windows: ctrl + shift + i
+
+  - En Mac OSX: cmd + opt + i
+
 2 Dentro de la página web que queremos inspeccionar:
-    - botón derecho -> Inspeccionar
+
+  - botón derecho -> Inspeccionar
+
 3 A través del menú de Chrome:
-    - Más Herramientas/Herramientas para desarrolladores
+
+  - Más Herramientas/Herramientas para desarrolladores
 
 Una vez activadas el navegador nos divide la pantalla, por una lado nos muestra la web de manera reducida y por otro todas las herramientas en forma de pestañas, destacan éstas:
 
