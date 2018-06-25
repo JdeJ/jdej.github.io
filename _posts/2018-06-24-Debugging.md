@@ -83,10 +83,12 @@ Una vez activadas el navegador nos divide la pantalla, por una lado nos muestra 
 Practicamente todos los programadores están familiarizados con la **Terminal**, para ejecutar su código, depurarlo... Ésto es precisamente lo que nos permite la **Consola**.
 
 - **Errors**
+
 Cuando se produce un error durante la ejecución de nuestro código, en la consola aparece una línea en rojo con una breve descripción del error producido y un poco más a la derecha un link hacia el archivo y la línea en la que se ha producido.
 Al hacer click en él, nos lleva a la pestaña *Sources* en la que se abre el archivo en el que se ha producido el error y el cursor se desplaza a la línea que lo ha producido para que podamos *depurarlo*.
 
 - **Línea de comandos**
+
 También podemos utilizar esta consola para ejecutar código directamente como puede ser operaciones matemáticas, crear un objeto, arrays... y operar con ellos. Lo único que debemos tener en cuenta es que todo lo que queramos hacer se tiene que escribir antes de apretar el *Enter*.
 
     9%3 //esto imprimirá en consola un 0 
