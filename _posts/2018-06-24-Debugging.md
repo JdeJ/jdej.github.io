@@ -69,10 +69,13 @@ Para poder acceder a las **Dev Tools** de **Chrome** podemos hacerlo de tres man
 
 Una vez activadas el navegador nos divide la pantalla, por una lado nos muestra la web de manera reducida y por otro todas las herramientas en forma de pestañas, destacan éstas:
 
-+ Elements: Desde esta pestaña podemos ir viendo a través del código donde se sitúan los elementos dentro de la propia web.
-+ Console: Para nosotros la más importante. Nos ofrece una línea de comandos para poder controlar nuestro código, sacar mensajes, depurar...
-+ Sources: Aquí tenemos un pequeño explorador de archivos que nos permite navegar por el sistema de carpetas que configuran la web, también podemos abrir los archivos ya sean css, js...
-+ Network: Si la web consume recursos web, desde aquí podemos inspeccionar estas conexiones y comprobar si todo va bien.
++ ***Elements***: Desde esta pestaña podemos ir viendo a través del código donde se sitúan los elementos dentro de la propia web.
+
++ ***Console***: Para nosotros la más importante. Nos ofrece una línea de comandos para poder controlar nuestro código, sacar mensajes, depurar...
+
++ ***Sources***: Aquí tenemos un pequeño explorador de archivos que nos permite navegar por el sistema de carpetas que configuran la web, también podemos abrir los archivos ya sean css, js...
+
++ ***Network***: Si la web consume recursos web, desde aquí podemos inspeccionar estas conexiones y comprobar si todo va bien.
 
 ***
 
@@ -80,7 +83,26 @@ Una vez activadas el navegador nos divide la pantalla, por una lado nos muestra 
 Practicamente todos los programadores están familiarizados con la **Terminal**, para ejecutar su código, depurarlo... Ésto es precisamente lo que nos permite la **Consola**.
 
 - **Errors**
-- **Errors**
+Cuando se produce un error durante la ejecución de nuestro código, en la consola aparece una línea en rojo con una breve descripción del error producido y un poco más a la derecha un link hacia el archivo y la línea en la que se ha producido.
+Al hacer click en él, nos lleva a la pestaña *Sources* en la que se abre el archivo en el que se ha producido el error y el cursor se desplaza a la línea que lo ha producido para que podamos *depurarlo*.
+
+- **Línea de comandos**
+También podemos utilizar esta consola para ejecutar código directamente como puede ser operaciones matemáticas, crear un objeto, arrays... y operar con ellos. Lo único que debemos tener en cuenta es que todo lo que queramos hacer se tiene que escribir antes de apretar el *Enter*.
+
+    9%3 //esto imprimirá en consola un 0 
+
+    var obj={name: 'Jorge', age: 36}; //creo un objeto
+
+    alert('Ésto es una alerta!!'); //lanzo una alerta personalizada
+    
+    //Incluso podemos ejecutar un bloque de código
+    var miArray = [1, 2, 3];
+    for (var i = 0; i < arr.length; i++) {
+      miArray[i] \*= 2;
+    }
+    miArray;
+    (3) [2, 4, 6] //escribirá ésto en pantalla
+
 - **Errors** 
 
 
@@ -94,42 +116,8 @@ Practicamente todos los programadores están familiarizados con la **Terminal**,
 
 
 
-
-
-
-
-
-
-
-
-
-
-1 **class**: Éste parámetro lo usamos para especificar propiedades extra para ciertos elementos. Siguiendo nuestro ejemplo, podemos definir el color, la fuente y el tamaño de todos los párrafos, y ademas que los que sean de la clase cursiva (\<p class="cursiva">) tengan el texto en cursiva:
-
-    <!-- HTML -->
-    <p class="cursiva">Éste es nuestro párrafo en cursiva con CSS</p>
-
-    <!-- CSS -->
-    p.cursiva {
-      font-style: italic;
-    }
-
-2 **id**: Al igual que el parámetro **class**, sirve para identificar un elemento aunque de manera única. Si asignamos un **id** a una etiqueta, en nuestra CSS podemos utilizarla a través de él y asignarle mas propiedades que queramos, pero no podemos tener dos etiquetas con el mismo **id**.
-
-    <!-- HTML -->
-    <p id="parrafo1"> Párrafo con id: 1</p>
-    <p id="parrafo2"> Párrafo con id: 2</p>
-
-    <!-- CSS -->
-    parrafo1{
-      font-style: italic;
-    }
-    parrafo2{
-      font-style: normal;
-    }
-
 ***
 
-Espero haber podido explicar las opciones que tenemos para detectar y corregir esos **bugs** que a los programadores nos fríen los sesos y que son tan difíciles de encontrar. Al menos con éstas herramientas tendrán más complicado esconderse :wink:.
+Espero haber podido explicar las opciones que tenemos para detectar y corregir esos **bugs** que a los programadores nos fríen los sesos y que son tan difíciles de encontrar. Al menos con éstas herramientas tendrán más complicado esconderse.
 
 Un saludo...
