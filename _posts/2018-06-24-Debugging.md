@@ -93,6 +93,6 @@ Aunque en un principio ésta herramienta pueda parecernos inútil, es de gran ut
 
 ***
 
-Hasta aquí mi pequeño resumen de mis inicios en la programación de páginas web.
+Espero haber podido explicar las opciones que tenemos para detectar y corregir esos *bugs* que a los programadores nos fríen los sesos y que son tan difíciles de encontrar. Al menos con éstas herramientas tendrán más complicado esconderse :wink:.
 
 Un saludo...
