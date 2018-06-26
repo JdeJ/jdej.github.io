@@ -151,20 +151,7 @@ Otra opción interesante que nos ofrece, es que si situamos el puntero del rató
 
 Por último en ocasiones podemos necesitar una consola cuando estamos dentro de la pestaña **Sources** para poder hacer operaciones en el contexto actual, para ello sólo debemos pulsar *esc* y nos aparecerá abajo una *línea de comandos*.
 
-- **Librerías y Minified Code** 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Para los curiosos, os dejo el link a la página oficial de Google con toda la documentación sobre las [***Dev Tools***](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3).
 
 ***
 
