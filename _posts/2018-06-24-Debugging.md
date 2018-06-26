@@ -138,11 +138,7 @@ Para poder acceder a las funciones del *depurador* tenemos varias opciones:
 
 - La primera es la más sencilla, basta con escribir: `debugger;` en el punto del código a partir del cuál queremos hacer uso del depurador. Lo único que debemos tener en cuenta es que el **debugger** sólo se activará si tenemos las **Dev Tools** activadas en el explorador.
 
-<<<<<<< HEAD
 - La segunda es añadiendo *breakpoints* a nuestro código. Ésto se hace a través de las pestaña **Sources**, abriendo el archivo que queremos depurar y pulsando en el número de línea en el que queremos detener la ejecución del programa y controlarla. Al igual que con el comando `debugger;` debemos tener las **Dev Tools** abiertas.
-=======
-` debugger; `
->>>>>>> 447c2aa0c6e958c7e5a93f1ac87ebf64eccd2285
 
 El **debugger** de nuestro navegador funciona igual que el de un *IDE*, en el centro nos aparece el código con la instrucción que está en ejecución subrayada, y a la derecha tenemos valores de variables, funciones disponibles y las opciones típicas de un depurador:
 
