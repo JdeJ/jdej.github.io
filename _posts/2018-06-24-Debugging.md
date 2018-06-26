@@ -138,7 +138,7 @@ Para poder acceder a las funciones del *depurador* tenemos varias opciones:
 
 - La primera es la más sencilla, basta con escribir:
 
-'debugger;'
+` debugger; `
 
 
 
