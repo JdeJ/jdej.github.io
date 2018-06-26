@@ -132,6 +132,16 @@ Al igual que ***Alert*** lo podemos usar para lanzar mensajes, en éste caso en 
 
 - **Debugger** 
 
+Como dije al inicio del artículo, los que estamos acostumbrados a trabajar en un *IDE* echamos en falta todas las ayudas pero también la potencia de su depurador. Pero dentro de las *Dev Tools* tenemos disponible un *debugger* que no tiene nada que envidiar a ningún *IDE*.
+
+Para poder acceder a las funciones del *depurador* tenemos varias opciones:
+
+- La primera es la más sencilla, basta con escribir:
+
+'debugger;'
+
+
+
 - **Librerías y Minified Code** 
 
 
