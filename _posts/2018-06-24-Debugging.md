@@ -4,6 +4,7 @@ title: JavaScript Debbuging
 author: "JdeJ"
 avatar: "images/profile.jpg"
 date: 2018-06-24
+image: "images/profile.jpg"
 categories: JavaScript
 ---
 
