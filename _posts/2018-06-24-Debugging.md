@@ -155,6 +155,6 @@ Para los curiosos, os dejo el link a la página oficial de Google con toda la do
 
 ***
 
-Espero haber podido explicar las opciones que tenemos para detectar y corregir esos **bugs** que a los programadores nos fríen los sesos y que son tan difíciles de encontrar. Al menos con éstas herramientas tendrán más complicado esconderse.
+Espero haber podido explicar las opciones que tenemos para detectar y corregir esos **bugs** que a los programadores nos fríen los sesos y que son tan difíciles de encontrar. Los navegadores nos ofrecen muchísimas más opciones que las que he comentado yo, pero creo que es un buen punto de partida.
 
 Un saludo...
