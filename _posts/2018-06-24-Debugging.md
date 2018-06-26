@@ -136,11 +136,20 @@ Como dije al inicio del artículo, los que estamos acostumbrados a trabajar en u
 
 Para poder acceder a las funciones del *depurador* tenemos varias opciones:
 
-- La primera es la más sencilla, basta con escribir:
+- La primera es la más sencilla, basta con escribir: `debugger;` en el punto del código a partir del cuál queremos hacer uso del depurador. Lo único que debemos tener en cuenta es que el **debugger** sólo se activará si tenemos las **Dev Tools** activadas en el explorador.
 
-'debugger;'
+- La segunda es añadiendo *breakpoints* a nuestro código. Ésto se hace a través de las pestaña **Sources**, abriendo el archivo que queremos depurar y pulsando en el número de línea en el que queremos detener la ejecución del programa y controlarla. Al igual que con el comando `debugger;` debemos tener las **Dev Tools** abiertas.
 
+El **debugger** de nuestro navegador funciona igual que el de un *IDE*, en el centro nos aparece el código con la instrucción que está en ejecución subrayada, y a la derecha tenemos valores de variables, funciones disponibles y las opciones típicas de un depurador:
 
+- Continuar / Pausar la ejecución del programa
+- Saltar a la siguiente instrucción del código
+- Entrar en la función invocada: si la siguiente instrucción es una función, el depurador saltará automáticamente a la parte del código donde está definida y dentro de ella podremos ir pasa por pasa ejecutándola.
+- Salir de la función invocada: la utilizaremos si estamos dentro de una función y queremos que la ejecute sin controlarla nosotros. La ejecuta y cuando termina nos devuelve a la siguiente instrucción justo después de la llamada a dicha función.
+
+Otra opción interesante que nos ofrece, es que si situamos el puntero del ratón sobre una variable nos muestra su valor actual.
+
+Por último en ocasiones podemos necesitar una consola cuando estamos dentro de la pestaña **Sources** para poder hacer operaciones en el contexto actual, para ello sólo debemos pulsar *esc* y nos aparecerá abajo una *línea de comandos*.
 
 - **Librerías y Minified Code** 
 
