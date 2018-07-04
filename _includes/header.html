@@ -67,6 +67,16 @@
               </li>
             {% endif %}
 
+            {% if site.author.stack-overflow_username %}
+              <!-- StackOverflow -->
+              <li class="navigation__item">
+                <a href="https://stackoverflow.com/users/9223218/jdej" title="{{ site.author.stack-overflow_username }} on StackOverflow" target="_blank">
+                  <i class="icon icon-social-stack-overflow"></i>
+                  <span class="label">StackOverflow</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
