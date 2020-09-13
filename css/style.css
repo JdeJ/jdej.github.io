@@ -45,8 +45,8 @@ header {
 	justify-content: center;
 }
 
-.bio-gif {
-	width: 100%;
+#presentation figure {
+	padding-bottom: 40px;
 }
 
 .start-button {
@@ -63,6 +63,12 @@ header {
 	animation: 0.8s blinker infinite;
 }
 
+.bio-gif {
+	width: 100vw;
+	max-height: calc(100vh - 40px);
+	max-width: 1000px;
+}
+
 .presentation-container {
 	position: fixed;
 	height: 100vh;
@@ -73,6 +79,10 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.continue {
+	background-color: black;
 }
 
 .footer {

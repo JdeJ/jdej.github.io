@@ -15,6 +15,7 @@
             <figure>
                 <img class="bio-gif"/>
             </figure>
+            <p class="footer continue">Press to continue...</p>
         `;
 
         const node = presentationContainer.appendChild(presentationGif);
@@ -26,7 +27,7 @@
         node.addEventListener('click', removePresentation);
 
         function removePresentation() {
-            clearTimeout(timeout);
+            timeout && clearTimeout(timeout);
             node.removeEventListener('click', removePresentation);
             presentationContainer.removeChild(node);
         }
