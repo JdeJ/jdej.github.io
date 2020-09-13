@@ -12,6 +12,9 @@ body {
 header {
 	text-align: center;
 	padding: 20px 5px;
+	height: 80px;
+	box-sizing: border-box;
+	border-bottom: 1px solid whitesmoke;
 }
 
 .title{
@@ -26,7 +29,7 @@ header {
 
 .subtitle::after{
 	content: "|";
-	animation: 0.8s blink infinite;
+	animation: 0.8s blinker infinite;
 }
 
 .hi-gif {
@@ -34,24 +37,57 @@ header {
 	width: 20px;
 }
 
-.bio-gif {
+#presentation {
 	width: 100vw;
+	height: calc(100vh - 120px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bio-gif {
+	width: 100%;
+}
+
+.start-button {
+	text-align: center;
+	display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+    background-color: whitesmoke;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+	animation: 0.8s blinker infinite;
+}
+
+.presentation-container {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 2;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer {
 	font-size: 0.9em;
 	text-align: center;
 	position: fixed;
-	padding: 15px;
+	padding: 13px;
 	width: 100vw;
 	bottom: 0;
+	height: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid whitesmoke;
+	z-index: 1;
 }
 
-@keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: whitesmoke;
-	}
+@keyframes blinker {  
+	50% { opacity: 0; }
 }
