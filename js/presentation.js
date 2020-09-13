@@ -9,7 +9,7 @@
     startButton.addEventListener('click', () => {
         const presentationGif = document.createElement('article');
 
-        presentationGif.setAttribute('class', 'presentation-container');
+        presentationGif.setAttribute('class', 'crt presentation-container');
         
         presentationGif.innerHTML = `
             <figure>
@@ -21,9 +21,15 @@
 
         node.querySelector('.bio-gif').src="./images/bio.gif";
 
-        setTimeout(() => {
+        const timeout = setTimeout(removePresentation, 17560);
+
+        node.addEventListener('click', removePresentation);
+
+        function removePresentation() {
+            clearTimeout(timeout);
+            node.removeEventListener('click', removePresentation);
             presentationContainer.removeChild(node);
-        }, 17560);
+        }
     });
 
 })();
