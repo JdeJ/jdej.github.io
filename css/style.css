@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
+@keyframes blinker {  
+	50% { opacity: 0; }
+}
+
+.hide {
+	display: none;
+}
+
 body {
 	font-family: 'Press Start 2P';
 	font-size: 16px;
@@ -37,15 +45,35 @@ header {
 	width: 20px;
 }
 
-#presentation {
+.wrapper {
+	box-sizing: border-box;
 	width: 100vw;
-	height: calc(100vh - 120px);
+	height: calc(100vh - 133px);
+	overflow: hidden auto;
+	padding: 0 15px;
+}
+
+.arrow::before {
+	content: "";
+	background-image:url(../images/arrow.png);
+	background-size: 100% 100%;
+	position: absolute;
+	animation: 1.5s blinker infinite;
+	height: 70px;
+	width: 70px;
+	top: -80px;
+	left: calc(50% - 35px);
+}
+
+.presentation {
+	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-#presentation figure {
+.presentation figure {
 	padding-bottom: 40px;
 }
 
@@ -60,7 +88,7 @@ header {
 	border-radius: 7px;
     box-shadow: 0 .2em gray; 
     cursor: pointer;
-	animation: 0.8s blinker infinite;
+	animation: 1s blinker infinite;
 }
 
 .bio-gif {
@@ -85,19 +113,46 @@ header {
 	background-color: black;
 }
 
-.footer {
-	font-size: 0.9em;
+.personal-profile {
+	padding: 15px 0;
 	text-align: center;
+	line-height: 1.4em;
+}
+
+.navigation {
+	margin-top: 10px;
+	display: block;
+	position: relative;
+	float: left;
+	clear: left;
+	width: 100%; 
+	margin-left: 30px;
+	padding-top: 5px; 
+}
+
+.navigation li {
+	width: 80%;
+	margin-bottom: .4em; 
+	display: inline-block;
+	width: 25.8%; 
+}
+
+.icon {
+	display: block;
+	font-size: 1.7em; 
+}
+
+
+.footer {
+	font-size: 0.6em;
+	text-align: center;
+	line-height: 1.4em;
 	position: fixed;
 	padding: 13px;
 	width: 100vw;
 	bottom: 0;
-	height: 40px;
+	height: 53px;
 	box-sizing: border-box;
 	border-top: 1px solid whitesmoke;
 	z-index: 1;
-}
-
-@keyframes blinker {  
-	50% { opacity: 0; }
 }

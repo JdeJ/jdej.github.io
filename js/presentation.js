@@ -1,6 +1,6 @@
 (function showPresentation() {
     const startButton = document.querySelector('.start-button');
-    const presentationContainer = document.querySelector('#presentation');
+    const presentationContainer = document.querySelector('.presentation');
 
     if (!startButton) {
         return;
