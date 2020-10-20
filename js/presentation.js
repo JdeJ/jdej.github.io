@@ -31,6 +31,10 @@
             node.removeEventListener('click', removePresentation);
             presentationContainer.removeChild(node);
         }
+
+        function scrollToPersonalProfile() {
+            
+        }
     });
 
 })();
