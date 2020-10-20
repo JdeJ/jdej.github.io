@@ -156,3 +156,22 @@ header {
 	border-top: 1px solid whitesmoke;
 	z-index: 1;
 }
+
+.nt {
+    color: #f92672;
+}
+
+.na {
+    color: #a6e22e;
+}
+
+.s {
+    color: #e6db74;
+}
+
+code {
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	font-size: 1.4em;
+}
